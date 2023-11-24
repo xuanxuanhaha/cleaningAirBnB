@@ -1,0 +1,67 @@
+/* Add this to your CSS module file */
+.background {
+  position: relative; /* This makes it a container for absolutely positioned elements */
+}
+
+.home_img {
+  position: relative; /* Makes this div a container for your text */
+}
+
+.home_img img {
+  width: 100%; /* Adjust as needed */
+  height: calc(100vh - 70px); /* Adjust as needed */
+}
+
+.textoverlay {
+  position: absolute;
+  top: 45%; /* Centers the text vertically */
+  left: 50%; /* Centers the text horizontally */
+  transform: translate(-50%, -50%); /* Adjusts the positioning to be centered correctly */
+  color: white; /* Change as needed */
+  font-size: 24px; /* Change as needed */
+  /* Additional styling for your text */
+  min-height: 300px;
+  background-color: rgba(230, 230,230,0.4);
+  width: 60%;
+  padding: 40px
+}
+.title{
+  font-size: 44px;
+  color: rgb(13, 27, 19);
+  text-align: center;
+  font-weight: 600;
+  max-width: 600px;
+  margin: auto;
+}
+.content{
+  font-size: 20px;
+  color: rgb(13, 27, 19);
+  text-align: center;
+  font-weight: 200;
+}
+.subtitle{
+  font-size: 26px;
+  color: rgb(13, 27, 19);
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contact_btn_box{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.contact_btn{
+  border-radius: 30px;
+  border: 2px solid #4a5f63;
+  padding: 8px 32px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: auto;
+  text-align: center;
+  color: #4a5f63;
+}
+.contact_btn:hover{
+  background-color: #d2dbd2;
+}
